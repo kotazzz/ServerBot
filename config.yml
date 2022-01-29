@@ -1,0 +1,36 @@
+server: 000
+
+archive_channels:
+  - 1
+
+formats:
+  channel: "({e})-{n}"
+  role: "[{e}]-{n}"
+  role_categoriy: "----{e}-----"
+
+role_categories:
+  Mods:
+    position: 1
+    name: "Модераторы"
+
+roles:
+  mod:
+    name: Модератор
+    emoji: 💣
+    category: Mods
+
+channel_categories:
+  Main:
+    position: 1
+    name: "Модераторы"
+    override:
+      mod: 8
+      
+channels:
+    name: Модератор
+    emoji: 💣
+    category: Mods
+    override:
+      mod: 8
+
+
