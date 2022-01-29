@@ -59,3 +59,13 @@ print(category.to_dict())
 print(channel.to_dict())
 print(rolecat.to_dict())
 print(role.to_dict())
+
+# {
+# "user":       disnake.Permissions(517647748673),
+# "helper":     disnake.Permissions(1635836620481),
+# "moder":      disnake.Permissions(1635845533395),
+# "admin":      disnake.Permissions(1644972470263),
+# "superadmin":     disnake.Permissions(1644972470263),
+# "coowner":    disnake.Permissions(1644972474359) ,
+# "owner":      disnake.Permissions(1644972474359),
+# }

@@ -8,12 +8,12 @@ bot.cfg = ConfigFile()
 
 @bot.command(name='start')
 async def _test(ctx):
-    await ctx.send('Hi!')
+    guild = ctx.channel.guild
 
 @bot.event
 async def on_ready():
     print('Online!')
-    
+
 os.environ["JISHAKU_NO_UNDERSCORE"] = "true"
 token = os.environ['SERVER_BOT_TOKEN']
 bot.load_extension('jishaku')
