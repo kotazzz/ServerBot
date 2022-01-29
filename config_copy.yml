@@ -1,0 +1,64 @@
+server: 000
+
+archive_channels:
+  - 1
+
+formats:
+  channel: "({e})-{n}"
+  role: "[{e}]-{n}"
+  role_categoriy: "----{n}-----"
+  channel_category: "___{n}___"
+
+role_categories:
+  - uuid: 0000-00000-000
+    id: Mods
+    position: 1
+    name: "Модераторы"
+
+roles:
+  - uuid: 0000-00000-000
+    id: mod
+    name: Модератор
+    emoji: 💣
+    category: Mods
+    description: Описание роли
+
+channel_categories:
+  - uuid: 0000-00000-000
+    id: Mod
+    position: 1
+    name: "Модераторы"
+    override:
+      mod: 8
+
+channels:
+  - uuid: 0000-00000-000
+    name: Модератор
+    emoji: 💣
+    category: Mods
+    override:
+      mod: 8
+    description: Описание канала
+
+langs:
+  lang:
+    - uuid: 0000-00000-000
+      name: Python
+      emoji: 💣
+      role: Python
+      channel: python
+  fw:
+    - uuid: 0000-00000-000
+      name: discord py
+      emoji: 💣
+      role: Python
+      channel: python
+  templates:
+    - uuid: 0000-00000-000
+      name: Шаблоны BDFD
+      emoji: 💣
+      role: Python
+      channel: python
+  
+
+
