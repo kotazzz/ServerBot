@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.10"
 disnake = "^2.3.0"
 disnake-jishaku = "^2.6.5"
+PyYAML = "^6.0"
 
 [tool.poetry.dev-dependencies]
 
